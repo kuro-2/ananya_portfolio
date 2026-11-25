@@ -1,0 +1,715 @@
+{
+ "cover-sunburst": {
+  "src": "/assets/cover/cover-sunburst.webp",
+  "w": 802,
+  "h": 802
+ },
+ "cover-illustration": {
+  "src": "/assets/cover/cover-illustration.webp",
+  "w": 483,
+  "h": 688
+ },
+ "portfolio-badge": {
+  "src": "/assets/cover/portfolio-badge.webp",
+  "w": 197,
+  "h": 199
+ },
+ "about-portrait": {
+  "src": "/assets/about/about-portrait.webp",
+  "w": 439,
+  "h": 660
+ },
+ "tool-icons": {
+  "src": "/assets/about/tool-icons.webp",
+  "w": 324,
+  "h": 81
+ },
+ "paper-frame": {
+  "src": "/assets/decorations/paper-frame.webp",
+  "w": 1775,
+  "h": 886,
+  "sm": "/assets/decorations/paper-frame-sm.webp",
+  "smw": 887
+ },
+ "sunburst-orange": {
+  "src": "/assets/decorations/sunburst-orange.webp",
+  "w": 1774,
+  "h": 887,
+  "sm": "/assets/decorations/sunburst-orange-sm.webp",
+  "smw": 887
+ },
+ "sunburst-teal": {
+  "src": "/assets/decorations/sunburst-teal.webp",
+  "w": 1775,
+  "h": 886,
+  "sm": "/assets/decorations/sunburst-teal-sm.webp",
+  "smw": 887
+ },
+ "contents-sunburst": {
+  "src": "/assets/decorations/contents-sunburst.webp",
+  "w": 1775,
+  "h": 886,
+  "sm": "/assets/decorations/contents-sunburst-sm.webp",
+  "smw": 887
+ },
+ "sunburst-yellow": {
+  "src": "/assets/decorations/sunburst-yellow.webp",
+  "w": 711,
+  "h": 813
+ },
+ "custom-alphabet": {
+  "src": "/assets/typography/custom-alphabet.webp",
+  "w": 540,
+  "h": 578
+ },
+ "sketchbook-photo": {
+  "src": "/assets/typography/sketchbook-photo.webp",
+  "w": 354,
+  "h": 427
+ },
+ "letterform-process": {
+  "src": "/assets/typography/letterform-process.webp",
+  "w": 297,
+  "h": 79
+ },
+ "velune-hero": {
+  "src": "/assets/logofolio/velune-hero.webp",
+  "w": 1774,
+  "h": 887,
+  "sm": "/assets/logofolio/velune-hero-sm.webp",
+  "smw": 887
+ },
+ "velune-logo-horizontal": {
+  "src": "/assets/logofolio/velune-logo-horizontal.webp",
+  "w": 398,
+  "h": 96
+ },
+ "velune-logo-block": {
+  "src": "/assets/logofolio/velune-logo-block.webp",
+  "w": 440,
+  "h": 129
+ },
+ "velune-wordmark-small": {
+  "src": "/assets/logofolio/velune-wordmark-small.webp",
+  "w": 141,
+  "h": 41
+ },
+ "velune-mark-small": {
+  "src": "/assets/logofolio/velune-mark-small.webp",
+  "w": 57,
+  "h": 57
+ },
+ "velune-logo-final": {
+  "src": "/assets/logofolio/velune-logo-final.webp",
+  "w": 375,
+  "h": 287
+ },
+ "velune-calla-lily-to-mark": {
+  "src": "/assets/logofolio/velune-calla-lily-to-mark.webp",
+  "w": 629,
+  "h": 275
+ },
+ "velune-palette-mockup": {
+  "src": "/assets/logofolio/velune-palette-mockup.webp",
+  "w": 761,
+  "h": 381
+ },
+ "brigade-post-homes": {
+  "src": "/assets/social-media/brigade-post-homes.webp",
+  "w": 236,
+  "h": 232
+ },
+ "brigade-post-lifestyle": {
+  "src": "/assets/social-media/brigade-post-lifestyle.webp",
+  "w": 232,
+  "h": 232
+ },
+ "brigade-post-communities": {
+  "src": "/assets/social-media/brigade-post-communities.webp",
+  "w": 233,
+  "h": 233
+ },
+ "brigade-post-wellness": {
+  "src": "/assets/social-media/brigade-post-wellness.webp",
+  "w": 234,
+  "h": 233
+ },
+ "brigade-post-sustainable": {
+  "src": "/assets/social-media/brigade-post-sustainable.webp",
+  "w": 233,
+  "h": 232
+ },
+ "brigade-post-legacy": {
+  "src": "/assets/social-media/brigade-post-legacy.webp",
+  "w": 231,
+  "h": 231
+ },
+ "brigade-grid-01": {
+  "src": "/assets/social-media/brigade-grid-01.webp",
+  "w": 355,
+  "h": 383
+ },
+ "brigade-grid-02": {
+  "src": "/assets/social-media/brigade-grid-02.webp",
+  "w": 263,
+  "h": 380
+ },
+ "brigade-grid-03": {
+  "src": "/assets/social-media/brigade-grid-03.webp",
+  "w": 353,
+  "h": 383
+ },
+ "brigade-grid-04": {
+  "src": "/assets/social-media/brigade-grid-04.webp",
+  "w": 263,
+  "h": 387
+ },
+ "brigade-grid-05": {
+  "src": "/assets/social-media/brigade-grid-05.webp",
+  "w": 343,
+  "h": 384
+ },
+ "brigade-grid-06": {
+  "src": "/assets/social-media/brigade-grid-06.webp",
+  "w": 351,
+  "h": 391
+ },
+ "brigade-grid-07": {
+  "src": "/assets/social-media/brigade-grid-07.webp",
+  "w": 353,
+  "h": 389
+ },
+ "brigade-grid-08": {
+  "src": "/assets/social-media/brigade-grid-08.webp",
+  "w": 261,
+  "h": 384
+ },
+ "brigade-grid-09": {
+  "src": "/assets/social-media/brigade-grid-09.webp",
+  "w": 356,
+  "h": 384
+ },
+ "brigade-grid-10": {
+  "src": "/assets/social-media/brigade-grid-10.webp",
+  "w": 260,
+  "h": 384
+ },
+ "brigade-instagram-mockup": {
+  "src": "/assets/social-media/brigade-instagram-mockup.webp",
+  "w": 1568,
+  "h": 765,
+  "sm": "/assets/social-media/brigade-instagram-mockup-sm.webp",
+  "smw": 784
+ },
+ "stackd-campaign-grid": {
+  "src": "/assets/social-media/stackd-campaign-grid.webp",
+  "w": 676,
+  "h": 676
+ },
+ "stackd-post-lunch-deal": {
+  "src": "/assets/social-media/stackd-post-lunch-deal.webp",
+  "w": 416,
+  "h": 428
+ },
+ "stackd-post-stack": {
+  "src": "/assets/social-media/stackd-post-stack.webp",
+  "w": 416,
+  "h": 411
+ },
+ "stackd-post-packaging": {
+  "src": "/assets/social-media/stackd-post-packaging.webp",
+  "w": 416,
+  "h": 414
+ },
+ "stackd-post-combo": {
+  "src": "/assets/social-media/stackd-post-combo.webp",
+  "w": 420,
+  "h": 404
+ },
+ "stackd-post-doorstep": {
+  "src": "/assets/social-media/stackd-post-doorstep.webp",
+  "w": 416,
+  "h": 404
+ },
+ "stackd-post-double-stack": {
+  "src": "/assets/social-media/stackd-post-double-stack.webp",
+  "w": 410,
+  "h": 399
+ },
+ "stackd-post-burger-type": {
+  "src": "/assets/social-media/stackd-post-burger-type.webp",
+  "w": 416,
+  "h": 433
+ },
+ "stackd-post-crunchy": {
+  "src": "/assets/social-media/stackd-post-crunchy.webp",
+  "w": 412,
+  "h": 432
+ },
+ "stackd-instagram-mockup": {
+  "src": "/assets/social-media/stackd-instagram-mockup.webp",
+  "w": 1775,
+  "h": 881,
+  "sm": "/assets/social-media/stackd-instagram-mockup-sm.webp",
+  "smw": 887
+ },
+ "sprite-press": {
+  "src": "/assets/posters/sprite-press.webp",
+  "w": 953,
+  "h": 916
+ },
+ "sprite-subway-mockup": {
+  "src": "/assets/posters/sprite-subway-mockup.webp",
+  "w": 1613,
+  "h": 808,
+  "sm": "/assets/posters/sprite-subway-mockup-sm.webp",
+  "smw": 806
+ },
+ "sprite-six-pack": {
+  "src": "/assets/posters/sprite-six-pack.webp",
+  "w": 461,
+  "h": 506
+ },
+ "sprite-vintage-wall": {
+  "src": "/assets/posters/sprite-vintage-wall.webp",
+  "w": 1031,
+  "h": 1058
+ },
+ "sprite-modern-wall": {
+  "src": "/assets/posters/sprite-modern-wall.webp",
+  "w": 816,
+  "h": 809
+ },
+ "madbury-press": {
+  "src": "/assets/posters/madbury-press.webp",
+  "w": 762,
+  "h": 724
+ },
+ "madbury-cafe-mockup": {
+  "src": "/assets/posters/madbury-cafe-mockup.webp",
+  "w": 1601,
+  "h": 804,
+  "sm": "/assets/posters/madbury-cafe-mockup-sm.webp",
+  "smw": 800
+ },
+ "madbury-poster": {
+  "src": "/assets/posters/madbury-poster.webp",
+  "w": 460,
+  "h": 650
+ },
+ "madbury-subway-mockup": {
+  "src": "/assets/posters/madbury-subway-mockup.webp",
+  "w": 1603,
+  "h": 821,
+  "sm": "/assets/posters/madbury-subway-mockup-sm.webp",
+  "smw": 801
+ },
+ "happy-feet-press": {
+  "src": "/assets/posters/happy-feet-press.webp",
+  "w": 637,
+  "h": 732
+ },
+ "happy-feet-cinema-mockup": {
+  "src": "/assets/posters/happy-feet-cinema-mockup.webp",
+  "w": 1616,
+  "h": 808,
+  "sm": "/assets/posters/happy-feet-cinema-mockup-sm.webp",
+  "smw": 808
+ },
+ "happy-feet-poster-1": {
+  "src": "/assets/posters/happy-feet-poster-1.webp",
+  "w": 237,
+  "h": 358
+ },
+ "happy-feet-poster-2": {
+  "src": "/assets/posters/happy-feet-poster-2.webp",
+  "w": 236,
+  "h": 359
+ },
+ "happy-feet-poster-3": {
+  "src": "/assets/posters/happy-feet-poster-3.webp",
+  "w": 233,
+  "h": 358
+ },
+ "happy-feet-series": {
+  "src": "/assets/posters/happy-feet-series.webp",
+  "w": 1599,
+  "h": 800,
+  "sm": "/assets/posters/happy-feet-series-sm.webp",
+  "smw": 799
+ },
+ "sock-racing-press": {
+  "src": "/assets/posters/sock-racing-press.webp",
+  "w": 734,
+  "h": 733
+ },
+ "sock-racing-wall-mockup": {
+  "src": "/assets/posters/sock-racing-wall-mockup.webp",
+  "w": 1621,
+  "h": 811,
+  "sm": "/assets/posters/sock-racing-wall-mockup-sm.webp",
+  "smw": 810
+ },
+ "sock-racing-poster": {
+  "src": "/assets/posters/sock-racing-poster.webp",
+  "w": 421,
+  "h": 621
+ },
+ "sock-racing-blue-red": {
+  "src": "/assets/posters/sock-racing-blue-red.webp",
+  "w": 518,
+  "h": 764
+ },
+ "sock-racing-yellow-red": {
+  "src": "/assets/posters/sock-racing-yellow-red.webp",
+  "w": 520,
+  "h": 765
+ },
+ "sock-racing-blue-pink": {
+  "src": "/assets/posters/sock-racing-blue-pink.webp",
+  "w": 519,
+  "h": 767
+ },
+ "macbeth-banner-mockup": {
+  "src": "/assets/print-media/macbeth-banner-mockup.webp",
+  "w": 1602,
+  "h": 801,
+  "sm": "/assets/print-media/macbeth-banner-mockup-sm.webp",
+  "smw": 801
+ },
+ "macbeth-book-back": {
+  "src": "/assets/print-media/macbeth-book-back.webp",
+  "w": 383,
+  "h": 573
+ },
+ "macbeth-book-front": {
+  "src": "/assets/print-media/macbeth-book-front.webp",
+  "w": 467,
+  "h": 699
+ },
+ "macbeth-stage-1-rough": {
+  "src": "/assets/print-media/macbeth-stage-1-rough.webp",
+  "w": 490,
+  "h": 698
+ },
+ "macbeth-stage-2-sketch": {
+  "src": "/assets/print-media/macbeth-stage-2-sketch.webp",
+  "w": 486,
+  "h": 681
+ },
+ "macbeth-stage-3-colour": {
+  "src": "/assets/print-media/macbeth-stage-3-colour.webp",
+  "w": 490,
+  "h": 697
+ },
+ "macbeth-stage-4-final": {
+  "src": "/assets/print-media/macbeth-stage-4-final.webp",
+  "w": 472,
+  "h": 692
+ },
+ "macbeth-book-mockup": {
+  "src": "/assets/print-media/macbeth-book-mockup.webp",
+  "w": 1486,
+  "h": 751,
+  "sm": "/assets/print-media/macbeth-book-mockup-sm.webp",
+  "smw": 743
+ },
+ "anyaberry-ice-bucket": {
+  "src": "/assets/packaging/anyaberry-ice-bucket.webp",
+  "w": 1601,
+  "h": 801,
+  "sm": "/assets/packaging/anyaberry-ice-bucket-sm.webp",
+  "smw": 800
+ },
+ "anyaberry-bottle": {
+  "src": "/assets/packaging/anyaberry-bottle.webp",
+  "w": 263,
+  "h": 715
+ },
+ "anyaberry-can-small": {
+  "src": "/assets/packaging/anyaberry-can-small.webp",
+  "w": 163,
+  "h": 369
+ },
+ "anyaberry-can": {
+  "src": "/assets/packaging/anyaberry-can.webp",
+  "w": 238,
+  "h": 539
+ },
+ "anyaberry-sketches": {
+  "src": "/assets/packaging/anyaberry-sketches.webp",
+  "w": 763,
+  "h": 433
+ },
+ "anyaberry-visual-inspiration": {
+  "src": "/assets/packaging/anyaberry-visual-inspiration.webp",
+  "w": 594,
+  "h": 285
+ },
+ "anyaberry-elements": {
+  "src": "/assets/packaging/anyaberry-elements.webp",
+  "w": 574,
+  "h": 253
+ },
+ "anyaberry-label": {
+  "src": "/assets/packaging/anyaberry-label.webp",
+  "w": 1481,
+  "h": 644,
+  "sm": "/assets/packaging/anyaberry-label-sm.webp",
+  "smw": 740
+ },
+ "get-in-touch": {
+  "src": "/assets/contact/get-in-touch.webp",
+  "w": 1767,
+  "h": 890,
+  "sm": "/assets/contact/get-in-touch-sm.webp",
+  "smw": 883
+ },
+ "checker-orange-brigade": {
+  "src": "/assets/decorations/checker-orange-brigade.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/checker-orange-brigade-sm.webp",
+  "smw": 1152
+ },
+ "checker-orange-brigade-inner": {
+  "src": "/assets/decorations/checker-orange-brigade-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "checker-yellow-stackd": {
+  "src": "/assets/decorations/checker-yellow-stackd.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/checker-yellow-stackd-sm.webp",
+  "smw": 1152
+ },
+ "checker-yellow-stackd-inner": {
+  "src": "/assets/decorations/checker-yellow-stackd-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "checker-green-sprite": {
+  "src": "/assets/decorations/checker-green-sprite.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/checker-green-sprite-sm.webp",
+  "smw": 1152
+ },
+ "checker-green-sprite-inner": {
+  "src": "/assets/decorations/checker-green-sprite-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "checker-brown-madbury": {
+  "src": "/assets/decorations/checker-brown-madbury.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/checker-brown-madbury-sm.webp",
+  "smw": 1152
+ },
+ "checker-brown-madbury-inner": {
+  "src": "/assets/decorations/checker-brown-madbury-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "checker-orange-happy-feet": {
+  "src": "/assets/decorations/checker-orange-happy-feet.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/checker-orange-happy-feet-sm.webp",
+  "smw": 1152
+ },
+ "checker-orange-happy-feet-inner": {
+  "src": "/assets/decorations/checker-orange-happy-feet-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "checker-red-sock-racing": {
+  "src": "/assets/decorations/checker-red-sock-racing.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/checker-red-sock-racing-sm.webp",
+  "smw": 1152
+ },
+ "checker-red-sock-racing-inner": {
+  "src": "/assets/decorations/checker-red-sock-racing-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "checker-crimson-macbeth": {
+  "src": "/assets/decorations/checker-crimson-macbeth.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/checker-crimson-macbeth-sm.webp",
+  "smw": 1152
+ },
+ "checker-crimson-macbeth-inner": {
+  "src": "/assets/decorations/checker-crimson-macbeth-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "diamonds-crimson-macbeth": {
+  "src": "/assets/decorations/diamonds-crimson-macbeth.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/diamonds-crimson-macbeth-sm.webp",
+  "smw": 1152
+ },
+ "diamonds-crimson-macbeth-inner": {
+  "src": "/assets/decorations/diamonds-crimson-macbeth-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "checker-red-anyaberry": {
+  "src": "/assets/decorations/checker-red-anyaberry.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/checker-red-anyaberry-sm.webp",
+  "smw": 1152
+ },
+ "checker-red-anyaberry-inner": {
+  "src": "/assets/decorations/checker-red-anyaberry-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "checker-red-anyaberry-label": {
+  "src": "/assets/decorations/checker-red-anyaberry-label.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/checker-red-anyaberry-label-sm.webp",
+  "smw": 1152
+ },
+ "checker-red-anyaberry-label-inner": {
+  "src": "/assets/decorations/checker-red-anyaberry-label-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "press-floor-green": {
+  "src": "/assets/decorations/press-floor-green.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/press-floor-green-sm.webp",
+  "smw": 1152
+ },
+ "press-floor-green-inner": {
+  "src": "/assets/decorations/press-floor-green-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "press-floor-brown": {
+  "src": "/assets/decorations/press-floor-brown.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/press-floor-brown-sm.webp",
+  "smw": 1152
+ },
+ "press-floor-brown-inner": {
+  "src": "/assets/decorations/press-floor-brown-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "press-floor-navy": {
+  "src": "/assets/decorations/press-floor-navy.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/press-floor-navy-sm.webp",
+  "smw": 1152
+ },
+ "press-floor-navy-inner": {
+  "src": "/assets/decorations/press-floor-navy-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "press-floor-red": {
+  "src": "/assets/decorations/press-floor-red.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/decorations/press-floor-red-sm.webp",
+  "smw": 1152
+ },
+ "press-floor-red-inner": {
+  "src": "/assets/decorations/press-floor-red-inner.webp",
+  "w": 1120,
+  "h": 538
+ },
+ "paper-inner": {
+  "src": "/assets/decorations/paper-inner.webp",
+  "w": 1726,
+  "h": 829
+ },
+ "sunburst-orange-inner": {
+  "src": "/assets/decorations/sunburst-orange-inner.webp",
+  "w": 1725,
+  "h": 828
+ },
+ "sunburst-teal-inner": {
+  "src": "/assets/decorations/sunburst-teal-inner.webp",
+  "w": 1726,
+  "h": 827
+ },
+ "contents-sunburst-inner": {
+  "src": "/assets/decorations/contents-sunburst-inner.webp",
+  "w": 1726,
+  "h": 827
+ },
+ "cover-sunburst-inner": {
+  "src": "/assets/decorations/cover-sunburst-inner.webp",
+  "w": 761,
+  "h": 761
+ },
+ "zevro-logo": {
+  "src": "/assets/logofolio/zevro-logo.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/logofolio/zevro-logo-sm.webp",
+  "smw": 1152
+ },
+ "zevro-identity-mockups": {
+  "src": "/assets/logofolio/zevro-identity-mockups.webp",
+  "w": 2304,
+  "h": 1152,
+  "sm": "/assets/logofolio/zevro-identity-mockups-sm.webp",
+  "smw": 1152
+ },
+ "velune-logo-exploration": {
+  "src": "/assets/logofolio/velune-logo-exploration.webp",
+  "w": 1314,
+  "h": 738,
+  "sm": "/assets/logofolio/velune-logo-exploration-sm.webp",
+  "smw": 657
+ },
+ "stackd-logo": {
+  "src": "/assets/social-media/stackd-logo.webp",
+  "w": 696,
+  "h": 416
+ },
+ "sprite-six-pack-panel": {
+  "src": "/assets/posters/sprite-six-pack-panel.webp",
+  "w": 1272,
+  "h": 1431,
+  "sm": "/assets/posters/sprite-six-pack-panel-sm.webp",
+  "smw": 636
+ },
+ "get-in-touch-lettering": {
+  "src": "/assets/contact/get-in-touch-lettering.webp",
+  "w": 1272,
+  "h": 492,
+  "sm": "/assets/contact/get-in-touch-lettering-sm.webp",
+  "smw": 636
+ },
+ "telephone": {
+  "src": "/assets/contact/telephone.webp",
+  "w": 1132,
+  "h": 1068,
+  "sm": "/assets/contact/telephone-sm.webp",
+  "smw": 566
+ },
+ "anyaberry-lifestyle": {
+  "src": "/assets/packaging/anyaberry-lifestyle.webp",
+  "w": 2312,
+  "h": 1154,
+  "sm": "/assets/packaging/anyaberry-lifestyle-sm.webp",
+  "smw": 1156
+ }
+}
