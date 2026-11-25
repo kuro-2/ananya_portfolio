@@ -68,10 +68,10 @@ export function About() {
                 <motion.li
                   className="step"
                   style={{ background: s.bg, "--w": s.w } as React.CSSProperties}
-                  initial={{ opacity: 0, scale: 0.3, y: -30 }}
-                  whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ type: "spring", stiffness: 220, damping: 13, delay: 0.4 + i * 0.13 }}
+                  transition={{ duration: 0.6, delay: Math.min(0.4 + i * 0.13, 0.5) }}
                 >
                   <T as="span" s={11.2} m={13}>{s.label}</T>
                 </motion.li>

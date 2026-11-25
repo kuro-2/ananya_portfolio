@@ -18,13 +18,13 @@ export function BleedPage({ n, k, alt, gallery, rect = [0, 0, 1152, 576] }: { n:
 }
 
 /** Very light scroll parallax for full-bleed photography. */
-export function Parallax({ children, amount = 3 }: { children: ReactNode; amount?: number }) {
+export function Parallax({ children, amount = 0 }: { children: ReactNode; amount?: number }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
   const y = useTransform(scrollYProgress, [0, 1], [`-${amount}%`, `${amount}%`]);
   return (
     <div ref={ref} className="parallax">
-      <motion.div style={{ y, scale: 1 + amount / 40, height: "100%" }}>{children}</motion.div>
+      {amount ? <motion.div style={{ y, scale: 1 + amount / 40, height: "100%" }}>{children}</motion.div> : children}
     </div>
   );
 }
@@ -36,11 +36,10 @@ export function PressPage({ n, k, alt, gallery, floor, rect }: { n: number; k: A
       <Box x={rect[0]} y={rect[1]} w={rect[2]} h={rect[3]} reveal={false} className="press__img">
         <motion.div
           style={{ height: "100%" }}
-          initial={{ opacity: 0, y: -160, rotate: -4 }}
-          whileInView={{ opacity: 1, y: 0, rotate: 0 }}
+          initial={{ opacity: 0, y: -24 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
-          transition={{ type: "spring", stiffness: 70, damping: 12, mass: 1.1 }}
-          whileHover={{ rotate: -1.5, y: -6 }}
+          transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
         >
           <Art k={k} alt={alt} gallery={gallery} fit="contain" zoom={false} sizes="(min-width: 1024px) 50vw, 60vw" />
         </motion.div>

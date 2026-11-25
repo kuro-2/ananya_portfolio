@@ -39,10 +39,10 @@ export function PrintMedia() {
         />
         <Box x={587} y={34} w={519} h={509} reveal={false} className="books">
           <div className="grp" style={{ aspectRatio: "519 / 509" }}>
-            <motion.div initial={{ opacity: 0, x: -120, rotate: -8 }} whileInView={{ opacity: 1, x: 0, rotate: 0 }} viewport={{ once: true }} transition={{ type: "spring", stiffness: 70, damping: 14, delay: 0.35 }} className="gi book" style={{ left: "0%", top: `${(91 / 509) * 100}%`, width: `${(275 / 519) * 100}%`, height: `${(412 / 509) * 100}%` }}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: Math.min(0.35, 0.5) }} className="gi book" style={{ left: "0%", top: `${(91 / 509) * 100}%`, width: `${(275 / 519) * 100}%`, height: `${(412 / 509) * 100}%` }}>
               <Art k="macbeth-book-back" alt="Macbeth hardcover, angled view" gallery="macbeth" fit="contain" />
             </motion.div>
-            <motion.div initial={{ opacity: 0, y: -160 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ type: "spring", stiffness: 70, damping: 13, delay: 0.15 }} className="gi book" style={{ left: `${(177 / 519) * 100}%`, top: "0%", width: `${(336 / 519) * 100}%`, height: `${(502 / 509) * 100}%` }}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: Math.min(0.15, 0.5) }} className="gi book" style={{ left: `${(177 / 519) * 100}%`, top: "0%", width: `${(336 / 519) * 100}%`, height: `${(502 / 509) * 100}%` }}>
               <Art k="macbeth-book-front" alt="Macbeth hardcover — William Shakespeare — front cover" gallery="macbeth" fit="contain" />
             </motion.div>
           </div>

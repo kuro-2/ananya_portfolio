@@ -28,10 +28,10 @@ export function SectionDivider({ n, num, title, theme, pill, titleAt, badge }: P
       <Box x={badge[0]} y={badge[1]} w={165} h={158} className="divider__badge" reveal={false}>
         <motion.div
           className="badge"
-          initial={{ scale: 0, rotate: -160 }}
-          whileInView={{ scale: 1, rotate: 0 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ type: "spring", stiffness: 120, damping: 14, delay: 0.25 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
           style={{ "--fs": 80.9 } as CSSProperties}
         >
           <T as="span" s={80.9} m={46}>{num}</T>

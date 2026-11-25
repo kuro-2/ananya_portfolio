@@ -363,7 +363,8 @@ button {
 }
 .tray .grid {
   height: 100%;
-  border-radius: calc(10 * var(--u));
+  /* inner radius = outer radius minus padding, so the content follows the tray and its shadow */
+  border-radius: max(calc((14 - var(--pad-y, 6)) * var(--u)), calc(5 * var(--u)));
   overflow: hidden;
 }
 .frame {
@@ -376,7 +377,7 @@ button {
   border: max(1px, calc(0.9 * var(--u))) solid #3d312c;
 }
 .frame .art {
-  border-radius: calc(6 * var(--u));
+  border-radius: max(calc((14 - var(--pad)) * var(--u)), calc(4 * var(--u)));
 }
 .grid {
   display: grid;
@@ -843,4 +844,29 @@ button {
 }
 .bx {
   will-change: auto;
+}
+
+/* Mobile: one consistent, smaller offset so shadows never run past the page edge */
+@media (max-width: 1023.98px) {
+  .page--flow .card,
+  .page--flow .frame,
+  .page--flow .shadowed,
+  .page--flow .tray,
+  .page--flow .swatch {
+    box-shadow: 6px 8px 0 var(--sc, #000);
+    margin-right: 6px;
+  }
+  .page--flow .framed {
+    box-shadow: 6px 8px 0 var(--fc);
+    margin-right: 6px;
+  }
+  .page--flow .sunpanel {
+    box-shadow: 6px 8px 0 #000;
+  }
+  .page--flow .stack3::after {
+    translate: 8px 10px;
+  }
+  .page--flow .stack3::before {
+    translate: 3px 6px;
+  }
 }

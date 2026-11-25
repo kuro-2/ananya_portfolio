@@ -49,25 +49,21 @@ type BoxProps = Omit<HTMLMotionProps<"div">, "style"> & {
 };
 
 export const variants = {
-  up: { opacity: 0, y: 60 },
-  down: { opacity: 0, y: -70 },
+  up: { opacity: 0, y: 22 },
+  down: { opacity: 0, y: -18 },
   fade: { opacity: 0 },
-  scale: { opacity: 0, scale: 0.82 },
-  left: { opacity: 0, x: -90 },
-  right: { opacity: 0, x: 90 },
-  zoom: { opacity: 0, scale: 1.18 },
-  rotate: { opacity: 0, rotate: -8, y: 50, scale: 0.92 },
-  flip: { opacity: 0, rotateX: -75, y: 30, transformPerspective: 900 },
-  pop: { opacity: 0, scale: 0.4, rotate: -12 },
-  wipe: { opacity: 1, clipPath: "inset(0% 100% 0% 0%)" },
-  rise: { opacity: 1, clipPath: "inset(100% 0% 0% 0%)", y: 40 },
+  scale: { opacity: 0, scale: 0.97 },
+  left: { opacity: 0, x: -24 },
+  right: { opacity: 0, x: 24 },
+  zoom: { opacity: 0 },
+  rotate: { opacity: 0, y: 22 },
+  flip: { opacity: 0, y: 22 },
+  pop: { opacity: 0, scale: 0.96 },
+  wipe: { opacity: 0, y: 16 },
+  rise: { opacity: 0, y: 22 },
 };
-const shown = { opacity: 1, x: 0, y: 0, scale: 1, rotate: 0, rotateX: 0, clipPath: "inset(0% 0% 0% 0%)" };
-const springy = new Set(["pop", "down", "flip"]);
-const trans = (reveal: string, delay: number) =>
-  springy.has(reveal)
-    ? { type: "spring" as const, stiffness: 110, damping: 15, mass: 0.9, delay }
-    : { duration: reveal === "wipe" || reveal === "rise" ? 1.1 : 0.9, delay, ease: [0.22, 1, 0.36, 1] as const };
+const shown = { opacity: 1, x: 0, y: 0, scale: 1 };
+const trans = (_reveal: string, delay: number) => ({ duration: 0.7, delay: Math.min(delay, 0.35), ease: [0.25, 0.1, 0.25, 1] as const });
 
 /** Absolutely positioned block in PDF points (static in the mobile flow). */
 export function Box({ x, y, w, h, pw = 1152, ph = 576, delay = 0, reveal = "up", className = "", style, children, ...rest }: BoxProps) {
@@ -111,7 +107,7 @@ export function Box({ x, y, w, h, pw = 1152, ph = 576, delay = 0, reveal = "up",
 }
 
 /** Scroll reveal for items that sit inside a layout (grid cells etc.). */
-const clipReveals = new Set(["wipe", "rise"]);
+const clipReveals = new Set<string>();
 
 function ClipReveal({ reveal, delay, className = "", style, children }: { reveal: keyof typeof variants; delay: number; className?: string; style?: CSSProperties; children: ReactNode }) {
   const ref = useRef<HTMLDivElement>(null);

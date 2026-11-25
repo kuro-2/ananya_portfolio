@@ -48,10 +48,10 @@ export function Packaging() {
                 key={p.k}
                 className="gi product"
                 style={{ left: `${(p.x / 441) * 100}%`, top: `${(p.y / 515) * 100}%`, width: `${(p.w / 441) * 100}%`, height: `${(p.h / 515) * 100}%`, zIndex: p.z }}
-                initial={{ opacity: 0, y: i === 1 ? -180 : 180, rotate: i === 0 ? -10 : 10 }}
-                whileInView={{ opacity: 1, y: 0, rotate: 0 }}
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
-                transition={{ type: "spring", stiffness: 70, damping: 12, delay: 0.25 + 0.18 * i }}
+                transition={{ duration: 0.6, delay: Math.min(0.25 + 0.18 * i, 0.5) }}
               >
                 <Art k={p.k} alt={p.alt} gallery="anyaberry" fit="contain" zoom={false} sizes="(min-width: 1024px) 16vw, 40vw" />
               </motion.div>
@@ -83,7 +83,7 @@ export function Packaging() {
         <Box x={627} y={418} w={478} className="palette7" delay={0.2}>
           <ul aria-label="Anyaberry colour palette">
             {palette.map((hex, i) => (
-              <motion.li key={hex} initial={{ opacity: 0, y: i % 2 ? 50 : -50, scale: 0.6 }} whileInView={{ opacity: 1, y: 0, scale: 1 }} viewport={{ once: true }} transition={{ type: "spring", stiffness: 160, damping: 14, delay: 0.55 + i * 0.08 }}>
+              <motion.li key={hex} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: Math.min(0.55 + i * 0.08, 0.5) }}>
                 <span className="palette7__chip" style={{ background: fills[i] }} />
                 <T as="span" s={10} m={11}>{hex}</T>
               </motion.li>

@@ -30,8 +30,8 @@ export function TableOfContents() {
               {rows.map((r, i) => (
                 <motion.li
                   key={r.id}
-                  initial={{ opacity: 0, x: 140, rotate: 3 }}
-                  whileInView={{ opacity: 1, x: 0, rotate: 0 }}
+                  initial={{ opacity: 0, x: 24 }}
+                  whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{ delay: 0.08 * i, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
                 >

@@ -52,10 +52,10 @@ export function Typography() {
               {chips.map((c, i) => (
                 <motion.li
                   key={c}
-                  initial={{ opacity: 0, scale: 0.2, rotate: i % 2 ? 14 : -14 }}
-                  whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
-                  transition={{ type: "spring", stiffness: 240, damping: 14, delay: 0.6 + i * 0.08 }}
+                  transition={{ duration: 0.6, delay: Math.min(0.6 + i * 0.08, 0.5) }}
                 >
                   <T as="span" s={11.5} m={13}>{c}</T>
                 </motion.li>
